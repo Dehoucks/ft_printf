@@ -6,7 +6,7 @@
 /*   By: robindehouck <robindehouck@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/02 16:28:52 by robindehouc       #+#    #+#             */
-/*   Updated: 2021/12/14 00:21:59 by robindehouc      ###   ########.fr       */
+/*   Updated: 2022/01/29 14:40:48 by robindehouc      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,10 +57,3 @@ int	ft_printf(const char *s, ...)
 	}
 	return (counter);
 }
-/*
-int	main()
-{
-
-	printf("%d\n", ft_printf(" %% ", -1));
-	printf("%d", printf(" %% ", -1));
-}*/

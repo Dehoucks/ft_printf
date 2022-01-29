@@ -6,14 +6,13 @@
 /*   By: robindehouck <robindehouck@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/13 23:01:21 by robindehouc       #+#    #+#             */
-/*   Updated: 2021/12/13 23:18:19 by robindehouc      ###   ########.fr       */
+/*   Updated: 2022/01/29 17:51:09 by robindehouc      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-
-int	ft_ptr_len(uintptr_t num)
+int	ft_ptr_len(unsigned long long num)
 {
 	int	len;
 
@@ -26,7 +25,7 @@ int	ft_ptr_len(uintptr_t num)
 	return (len);
 }
 
-void	ft_put_ptr(uintptr_t num)
+void	ft_put_ptr(unsigned long long num)
 {
 	if (num >= 16)
 	{
