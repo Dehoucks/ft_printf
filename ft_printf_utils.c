@@ -6,12 +6,11 @@
 /*   By: robindehouck <robindehouck@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/02 16:47:59 by robindehouc       #+#    #+#             */
-/*   Updated: 2021/12/13 23:18:25 by robindehouc      ###   ########.fr       */
+/*   Updated: 2022/02/01 14:11:41 by robindehouc      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-
 
 int	ft_putchar(char c)
 {
