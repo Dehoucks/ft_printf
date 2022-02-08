@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: robindehouck <robindehouck@student.42.f    +#+  +:+       +#+        */
+/*   By: rdehouck <rdehouck@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/02 16:28:52 by robindehouc       #+#    #+#             */
-/*   Updated: 2022/02/01 14:13:22 by robindehouc      ###   ########.fr       */
+/*   Updated: 2022/02/08 13:28:37 by rdehouck         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,5 +54,6 @@ int	ft_printf(const char *s, ...)
 			counter += ft_printchar(s[i]);
 		i++;
 	}
+	va_end(args);
 	return (counter);
 }
