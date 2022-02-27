@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rdehouck <rdehouck@student.42lyon.fr>      +#+  +:+       +#+        */
+/*   By: robindehouck <robindehouck@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/02 16:28:52 by robindehouc       #+#    #+#             */
-/*   Updated: 2022/02/08 13:28:37 by rdehouck         ###   ########lyon.fr   */
+/*   Updated: 2022/02/27 19:39:40 by robindehouc      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int	check_symbol(char c, va_list args)
 
 	counter = 0;
 	if (c == 's')
-		counter += ft_putstr(va_arg(args, char *));
+		counter += ft_printstr(va_arg(args, char *));
 	else if (c == 'p')
 		counter += ft_print_ptr(va_arg(args, unsigned long long));
 	else if (c == 'd' || c == 'i')
@@ -57,3 +57,8 @@ int	ft_printf(const char *s, ...)
 	va_end(args);
 	return (counter);
 }
+
+// int main()
+// {
+// 	ft_printf("%s", "testboy");
+// }

@@ -6,7 +6,7 @@
 /*   By: robindehouck <robindehouck@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/13 23:02:40 by robindehouc       #+#    #+#             */
-/*   Updated: 2022/02/01 14:13:46 by robindehouc      ###   ########.fr       */
+/*   Updated: 2022/02/27 19:38:14 by robindehouc      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,24 +23,6 @@ int	ft_printchar(int c)
 {
 	write(1, &c, 1);
 	return (1);
-}
-
-int	ft_printstr(char *str)
-{
-	int	i;
-
-	i = 0;
-	if (str == NULL)
-	{
-		ft_putstr("(null)");
-		return (6);
-	}
-	while (str[i])
-	{
-		write(1, &str[i], 1);
-		i++;
-	}
-	return (i);
 }
 
 int	ft_printnbr(int n)
