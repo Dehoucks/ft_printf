@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_unsigned.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: robindehouck <robindehouck@student.42.f    +#+  +:+       +#+        */
+/*   By: rdehouck <rdehouck@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/13 23:03:36 by robindehouc       #+#    #+#             */
-/*   Updated: 2022/02/01 14:13:40 by robindehouc      ###   ########.fr       */
+/*   Updated: 2022/03/02 13:27:46 by rdehouck         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-
 #include <stdlib.h>
 
 int	ft_num_len(unsigned	int num)

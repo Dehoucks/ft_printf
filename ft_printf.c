@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: robindehouck <robindehouck@student.42.f    +#+  +:+       +#+        */
+/*   By: rdehouck <rdehouck@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/02 16:28:52 by robindehouc       #+#    #+#             */
-/*   Updated: 2022/02/27 19:39:40 by robindehouc      ###   ########.fr       */
+/*   Updated: 2022/03/02 14:07:25 by rdehouck         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,8 +57,3 @@ int	ft_printf(const char *s, ...)
 	va_end(args);
 	return (counter);
 }
-
-// int main()
-// {
-// 	ft_printf("%s", "testboy");
-// }
